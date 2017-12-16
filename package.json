@@ -1,0 +1,31 @@
+{
+  "name": "koademo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/git-zhangsan/koaDemo.git"
+  },
+  "keywords": [
+    "koa"
+  ],
+  "dependencies": {
+    "fs.promised": "^3.0.0",
+    "koa": "^2.4.1",
+    "koa-body": "^2.5.0",
+    "koa-compose": "^4.0.0",
+    "koa-router": "^7.3.0",
+    "koa-static": "^4.0.2",
+    "koa-route": "^3.2.0"
+  },
+  "author": "zhangsan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/git-zhangsan/koaDemo/issues"
+  },
+  "homepage": "https://github.com/git-zhangsan/koaDemo#readme"
+}
