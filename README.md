@@ -4,13 +4,20 @@
 
 注：此示例参照阮一峰老师示例，完全属于学习型练习阶段，照着敲一遍只是为了加深记忆，仅此。
 
+
+英文好的筒子，请移步 https://github.com/koajs/koa，原汁原味儿
+
+
 #01
 
 目标：使用 Koa 构建一个HTTP服务
 
 执行：$ node 01.js
 
-结果：浏览器访问 http://localhost:3000/，因未指定任何显示内容，页面展示Not Found，此时koa服务构建完成。
+操作：浏览器访问 http://localhost:3000/ 
+
+结果：因未指定任何显示内容，页面展示Not Found，此时koa服务构建完成。
+
 
 #02
 
@@ -18,7 +25,10 @@
 
 执行：$ node 02.js
 
-结果：浏览器访问 http://localhost:3000/，页面展示 Hello World （Context.response.body返回的内容）此处 Context.response代表HTTP Response
+操作：浏览器访问 http://localhost:3000/ 
+
+结果：页面展示 Hello World （Context.response.body返回的内容）此处 Context.response代表HTTP Response
+
 
 #03
 
@@ -26,7 +36,10 @@
 
 执行：$ node 03.js
 
-结果：浏览器访问 http://localhost:3000/，页面展示Xml文档，个人理解：request.accepts会依次判断可能出现的类型，如果都没有匹配则默认返回text/plain
+操作：浏览器访问 http://localhost:3000/
+
+结果：页面展示Xml文档，个人理解：request.accepts会依次判断可能出现的类型，如果都没有匹配则默认返回text/plain
+
 
 #04
 
@@ -34,7 +47,9 @@
 
 执行：$ node 04.js
 
-结果：浏览器访问 http://localhost:3000/，页面展示template.html模板内容
+操作：浏览器访问 http://localhost:3000/
+
+结果：页面展示template.html模板内容
 
 
 #05
@@ -43,7 +58,9 @@
 
 执行：$ node 05.js
 
-结果：浏览器访问 http://localhost:3000/about，页面展示Index Page
+操作：浏览器访问 http://localhost:3000/about
+
+结果：页面展示Index Page
 
 
 #06
@@ -52,7 +69,10 @@
 
 执行：$ node 06.js
 
-结果：浏览器访问 http://localhost:3000/，页面展示Hello World，浏览器访问 http://localhost:3000/about，页面展示Index Page
+操作：浏览器访问 http://localhost:3000/
+
+结果：页面展示Hello World，浏览器访问 http://localhost:3000/about，页面展示Index Page
+
 
 #06-1
 
@@ -60,7 +80,9 @@
 
 执行：$ node 06-1.js
 
-结果：浏览器访问 http://localhost:3000/，页面展示Hello World，浏览器访问 http://localhost:3000/about，页面展示Index Page
+操作：浏览器访问 http://localhost:3000/
+
+结果：页面展示Hello World，浏览器访问 http://localhost:3000/about，页面展示Index Page
 
 
 #07
@@ -69,7 +91,9 @@
 
 执行：$ node 07.js
 
-结果：浏览器访问 http://localhost:3000/，控制台打印时间戳、请求方式、请求路径
+操作：浏览器访问 http://localhost:3000/
+
+结果：控制台打印时间戳、请求方式、请求路径
 
 
 #08
@@ -80,7 +104,9 @@
 
 执行：$ node 08.js
 
-结果：浏览器访问 http://localhost:3000/，控制台打印时间戳、请求方式、请求路径
+操作：浏览器访问 http://localhost:3000/
+
+结果：控制台打印时间戳、请求方式、请求路径
 
 
 #09
@@ -91,7 +117,9 @@
 
 执行：$ node 09.js
 
-结果：浏览器访问 http://localhost:3000/，>> one >> two >> three >> three >> two >> one
+操作：浏览器访问 http://localhost:3000/
+
+结果：>> one >> two >> three >> three >> two >> one
 
 
 #10
@@ -102,7 +130,9 @@
 
 执行：$ node 10.js
 
-结果：浏览器访问 http://localhost:3000/，页面展示template.html模板内容
+操作：浏览器访问 http://localhost:3000/
+
+结果：页面展示template.html模板内容
 
 
 #11
@@ -113,7 +143,9 @@
 
 执行：$ node 11.js
 
-结果：浏览器访问 http://localhost:3000/，控制台打印时间戳、请求方式、请求路径
+操作：浏览器访问 http://localhost:3000/
+
+结果：控制台打印时间戳、请求方式、请求路径
 
 
 #12
@@ -122,7 +154,9 @@
 
 执行：$ node 12.js
 
-结果：浏览器访问 http://localhost:3000/12.js，可查看脚本内容
+操作：浏览器访问 http://localhost:3000/12.js
+
+结果：可查看脚本内容
 
 
 #13
@@ -133,7 +167,9 @@
 
 执行：$ node 13.js
 
-结果：浏览器访问 http://localhost:3000/redirect，浏览器会将用户导向根路由
+操作：浏览器访问 http://localhost:3000/redirect
+
+结果：浏览器会将用户导向根路由
 
 
 #14
@@ -144,7 +180,9 @@
 
 执行：$ node 14.js
 
-结果：浏览器访问 http://localhost:3000/，浏览器展示500错误页"Internal Server Error"。
+操作：浏览器访问 http://localhost:3000/
+
+结果：浏览器展示500错误页"Internal Server Error"。
 
 
 #15
@@ -155,7 +193,9 @@
 
 执行：$ node 15.js
 
-结果：浏览器访问 http://localhost:3000/，浏览器展示Page Not Found。
+操作：浏览器访问 http://localhost:3000/
+
+结果：浏览器展示Page Not Found。
 
 
 #16 
@@ -166,7 +206,9 @@
 
 执行：$ node 15.js
 
-结果：浏览器访问 http://localhost:3000/，浏览器展示500错误页以及错误信息。
+操作：浏览器访问 http://localhost:3000/
+
+结果：浏览器展示500错误页以及错误信息。
 
 
 #17 
@@ -177,7 +219,9 @@
 
 执行：$ node 17.js
 
-结果：浏览器访问 http://localhost:3000/，控制台输出监听到的错误信息
+操作：浏览器访问 http://localhost:3000/
+
+结果：控制台输出监听到的错误信息
 
 
 #18 
@@ -188,7 +232,9 @@
 
 执行：$ node 18.js
 
-结果：浏览器访问 http://localhost:3000/，控制台输出监听到的错误信息
+操作：浏览器访问 http://localhost:3000/
+
+结果：控制台输出监听到的错误信息
 
 
 #19 
@@ -199,7 +245,9 @@
 
 执行：$ node 19.js
 
-结果：浏览器访问 http://localhost:3000/，浏览器展示数字变量，且刷新之后会叠加
+操作：浏览器访问 http://localhost:3000/
+
+结果：浏览器展示数字变量，且刷新之后会叠加
 
 
 #20 
@@ -210,7 +258,9 @@
 
 执行：$ node 20.js
 
-结果：浏览器访问 http://localhost:3000/，打开另外一个终端模拟post请求，控制台输出对应的信息
+操作：浏览器访问 http://localhost:3000/
+
+结果：打开另外一个终端模拟post请求，控制台输出对应的信息
 
 
 
